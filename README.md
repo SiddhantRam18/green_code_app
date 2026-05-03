@@ -84,8 +84,8 @@ Our auditor targets physical hardware behaviors to ensure 90-95% accuracy in ene
 
 ## Team Members
 
-*   **Abhishek Basavaraj Vishwagna** 
-*   **Siddhant M**
+*   **Abhishek Basavaraj Vishwagna** - abhivishwagna1@gmail.com
+*   **Siddhant M** - siddhantram18@gmail.com
 
 ---
 ## Project Structure
