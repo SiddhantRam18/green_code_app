@@ -1,4 +1,4 @@
-# 🌿 GreenCode: Green Software Credit System
+# GreenCode: Green Software Credit System
 
 **GreenCode** is a  static analysis tool designed to audit Python code for energy efficiency. By identifying "Carbon Footprint" of the code snippet. The inefficient algorithmic patterns that cause unnecessary CPU load empowers developers to reduce their digital carbon footprint and rewards sustainable coding with **Carbon Credits** and a digital **Greencode Certificate**.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 *   **Client-Side Compute:** Powered by **BrowserPod**, the analysis runs in a virtualized Linux container entirely within the user's browser tab.
 *   **Absolute Privacy:** Sensitive source code never leaves the local machine; no data is uploaded to external servers for auditing.
@@ -19,7 +19,7 @@
 
 ---
 
-## 🏗️ Technical Architecture
+## Technical Architecture
 
 The project is split into two primary environments that communicate via the BrowserPod SDK:
 
@@ -34,7 +34,7 @@ A Python-based logic core that runs inside the **BrowserPod** sandbox.
 
 ---
 
-## 🛠️ The Green Scoring Logic
+## The Green Scoring Logic
 
 Our auditor targets physical hardware behaviors to ensure 90-95% accuracy in energy estimation:
 
@@ -45,7 +45,7 @@ Our auditor targets physical hardware behaviors to ensure 90-95% accuracy in ene
 
 ---
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 *   **Node.js** (v18.0.0 or higher)
@@ -82,13 +82,13 @@ Our auditor targets physical hardware behaviors to ensure 90-95% accuracy in ene
     Launch the local server URL. The **BrowserPod** will automatically spin up the Python environment in your browser tab using the provided API key[cite: 1].
 ---
 
-## 👥 The Team
+## The Team
 
 *   **Abhishek Basavaraj Vishwagna** 
 *   **Siddhant**
 
 ---
-## 🏗️ Project Structure
+## Project Structure
 ```text
 Green Software Credit System/
 ├── gscs-frontend/         # React + Tailwind CSS UI
