@@ -1,6 +1,6 @@
 # 🌿 GreenCode: Green Software Credit System
 
-**GreenCode** is a privacy-first, in-browser static analysis tool designed to audit Python code for energy efficiency. By identifying "Carbon Leaks"—inefficient algorithmic patterns that cause unnecessary CPU load—it empowers developers to reduce their digital carbon footprint and rewards sustainable coding with **Carbon Credits**.
+**GreenCode** is a  static analysis tool designed to audit Python code for energy efficiency. By identifying "Carbon Footprint" of the code snippet. The inefficient algorithmic patterns that cause unnecessary CPU load empowers developers to reduce their digital carbon footprint and rewards sustainable coding with **Carbon Credits** and a digital **Greencode Certificate**.
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![React](https://img.shields.io/badge/frontend-React-blue)
@@ -49,13 +49,14 @@ Our auditor targets physical hardware behaviors to ensure 90-95% accuracy in ene
 
 ### Prerequisites
 *   **Node.js** (v18.0.0 or higher)
+*   **python**
 *   **Git**
 
 ### Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-repo/greencode.git
+    git clone https://github.com/AbhishekVishwagna/greencode.git
     cd greencode
     ```
 
