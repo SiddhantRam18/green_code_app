@@ -67,17 +67,12 @@ Our auditor targets physical hardware behaviors to ensure 90-95% accuracy in ene
     ```
 
 3.  **Analyze Code:**
-    Open the local server URL. The **BrowserPod** will initialize automatically. Paste your Python code to start the "Green Audit."[cite: 1]
+    Open the local server URL. The **BrowserPod** will initialize automatically. Paste your Python code to start the "Green Audit."
 
 ---
 
 ## 👥 The Team
 
-*   **Abhishek Basavaraj Vishwagna** – Embedded Engineer & Logic Architect (Python AST Engine)[cite: 1]
-*   **Siddhant** – Software Engineer & Frontend Architect (React UI & Integration)[cite: 1]
+*   **Abhishek Basavaraj Vishwagna** 
+*   **Siddhant**
 
----
-
-## 📄 License
-
-T
