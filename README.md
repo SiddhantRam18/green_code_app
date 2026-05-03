@@ -85,6 +85,7 @@ Green Software Credit System/
     └── config/
         └── rules.json     # Configurable efficiency rules
 
+
 ---
 
 ## 👥 The Team
