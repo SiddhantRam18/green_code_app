@@ -51,6 +51,11 @@ Our auditor targets physical hardware behaviors to ensure 90-95% accuracy in ene
 *   **Node.js** (v18.0.0 or higher)
 *   **python**
 *   **Git**
+*   **BrowserPod API Key**
+
+### Dependencies
+*   **Frontend(NPM)** :react, tailwindcss, lucide-react, @leaningtech/browserpod
+*   **Backend(NPM)** : ast, json
 
 ### Installation
 
@@ -60,16 +65,21 @@ Our auditor targets physical hardware behaviors to ensure 90-95% accuracy in ene
     cd greencode
     ```
 
-2.  **Install & Run Frontend:**
+2.  **Configure Environment Variables:**
+    Create a `.env` file in the `gscs-frontend` directory and add your API key:
+    ```text
+    VITE_BROWSERPOD_API_KEY=your_api_key_here
+    ```
+
+3.  **Frontend Provisioning:**
     ```bash
     cd gscs-frontend
     npm install
     npm run dev
     ```
 
-3.  **Analyze Code:**
-    Open the local server URL. The **BrowserPod** will initialize automatically. Paste your Python code to start the "Green Audit."
-
+4.  **Start Local Audit:**
+    Launch the local server URL. The **BrowserPod** will automatically spin up the Python environment in your browser tab using the provided API key[cite: 1].
 ---
 
 ## 👥 The Team
