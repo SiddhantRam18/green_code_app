@@ -24,9 +24,11 @@ export default function Navbar() {
     >
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-6">
         <Link to="/" className="flex flex-shrink-0 items-center gap-2">
-          <span className="flex h-8 w-8 items-center justify-center rounded-full bg-primary/10 font-mono text-lg font-bold text-primary shadow-[0_0_18px_rgba(0,232,135,0.18)]">
-            G
-          </span>
+          <img 
+            src="/logo.svg" 
+            alt="Green Code" 
+            className="h-8 w-8 drop-shadow-[0_0_8px_rgba(0,232,135,0.3)]"
+          />
           <span className="font-mono text-sm font-semibold tracking-wide text-foreground">Green Code</span>
         </Link>
 
